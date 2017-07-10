@@ -1,0 +1,1 @@
+INSERT INTO `currency` (`title`, `code`, `is_default`, `conversion_rate`, `format`, `price_format`) VALUES ('Rial', 'IRR', 1, '1.000000', '{{price}} Rial', '4'); UPDATE `currency` SET `is_default` = '0' WHERE `code` = 'USD';
